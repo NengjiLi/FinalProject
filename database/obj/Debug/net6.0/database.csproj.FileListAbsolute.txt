@@ -1,0 +1,12 @@
+C:\Users\nengj\source\repos\GymMaster\database\bin\Debug\net6.0\database.deps.json
+C:\Users\nengj\source\repos\GymMaster\database\bin\Debug\net6.0\database.dll
+C:\Users\nengj\source\repos\GymMaster\database\bin\Debug\net6.0\database.pdb
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.csproj.AssemblyReference.cache
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.AssemblyInfoInputs.cache
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.AssemblyInfo.cs
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.csproj.CoreCompileInputs.cache
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.dll
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\refint\database.dll
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\database.pdb
+C:\Users\nengj\source\repos\GymMaster\database\obj\Debug\net6.0\ref\database.dll

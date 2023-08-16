@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp5.MainPage">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Member">
+            <MenuFlyoutItem Text="Collect member info" Clicked="Member_Click"/>
+            <MenuFlyoutItem Text="Manage member" Clicked="MemberAC_Click"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="Classes">
+            <MenuFlyoutItem Text="Add classes" Clicked="AddClass_Click"/>
+            <MenuFlyoutItem Text="Show classes and delete" Clicked="ShowClass_Click"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="Payments">
+            <MenuFlyoutItem Text="Payment history" Clicked="Payment_Click"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="Attendance">
+            <MenuFlyoutItem Text="Show history" Clicked="AttShow_Click"/>
+            <MenuFlyoutItem Text="Add" Clicked="AttAdd_Click"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Equipment">
+            <MenuFlyoutItem Text="Manage" Clicked="Equipment_Click"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Staff">
+            <MenuFlyoutItem Text="Manage" Clicked="Staff_Click"/>
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+    
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Gym Master"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to our Gym Management System"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
